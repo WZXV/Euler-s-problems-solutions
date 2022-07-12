@@ -9,7 +9,7 @@ def is_prime(n):
 
 res = 2
 
-for n in range(2, 2_000_000):
+for n in range(3, 2_000_000, 2git ):
     if is_prime(n):
         res += n
 print(res)
